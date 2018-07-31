@@ -55,17 +55,18 @@
             </div>
         <div class="row justify-content-center">
             <form id="form_id" method="post" name="myform">
-                <div class="input-area row justify-content-center">
+                <div id="loginlabel" class="input-area row justify-content-center">
                     <label class="col-6">User Name :</label>
                     <input class="col-6" type="text" name="username" id="username" />
                 </div>
-                <div class="input-area row justify-content-center">
+                <div id="loginlabel" class="input-area row justify-content-center">
                     <label class="col-6">Password :</label>
                     <input class="col-6" type="password" name="password" id="password" />
                 </div>
+                <br>
                 <div class="row button">
                     <div class="col-4"></div>
-                    <input type="button" class="btn btn-primary col-4" value="Login" id="submit" onclick="validate()" />
+                    <input type="button" class="btn col-4" value="Login" id="submit" onclick="validate()" />
 
                     <div class="col-4"></div>
                 </div>

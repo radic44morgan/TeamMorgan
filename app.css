@@ -32,8 +32,13 @@ div.blur {
      color: #125589;
  }
 
- .btn-light {
-    color: #125589 !important;
+ #loginlabel {
+    color: #125589;
+}
+
+  .btn {
+    background-color: #125589 !important;
+    color: white !important;
  }
 
 

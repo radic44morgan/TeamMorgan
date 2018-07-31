@@ -21,7 +21,7 @@ function validate() {
     }
 }
 
-function addProfile() {
+function addProfile() {}
     
 function populateList(name, cohort, market, phone, email, fact, img)
 {

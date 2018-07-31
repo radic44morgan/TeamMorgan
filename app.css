@@ -7,7 +7,9 @@ body {
     background: #edfafd;
     padding-bottom: 50px;
 }
-
+.fa-user-alt:hover {
+    color:#125589!important;
+}
 .fa-plus-circle:hover {
     color:#125589!important;
 }

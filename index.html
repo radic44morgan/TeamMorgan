@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row sticky-top">
             <div class="col-1">
-                <i class="fas fa-user-alt fa-5x" style="color: #2a93df;"></i>
+                <i id="myProfilebtn" data-toggle="modal" data-target="#myProfileModal" class="fas fa-user-alt fa-5x" style="color: #2a93df;"></i>
             </div>
             <div class="col-4">
                 <h3>
@@ -35,7 +35,7 @@
                 <img src="img/dolphin.png" alt="Dolphin" class="displayed">
             </div>
         </div>
-        <!-- Modal -->
+        <!-- Add Profile Modal -->
         <div class="modal fade" id="addProfileModal" tabindex="-1" role="dialog" aria-labelledby="addProfileModalCenter" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -60,15 +60,31 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- User Profile Modal -->
+        <div class="modal fade" id="myProfileModal" tabindex="-1" role="dialog" aria-labelledby="myProfileLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Morgan Radic</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                  </div>
+                </div>
+              </div>
             <div class="container">
                 <!-- contacts card -->
                 <div class="card card-default" id="card_contacts">
                     <div id="contacts" class="panel-collapse collapse show" aria-expanded="true" style="">
                         <ul class="list-group pull-down" id="contact-list">
-                                <div id="table">
-                            
-                        </div>
+                            <div id="table">
+
+                            </div>
                         </ul>
                         <!--/contacts list-->
                     </div>
@@ -81,4 +97,5 @@
     </div>
 </body>
 <script src="app.js"></script>
+
 </html>

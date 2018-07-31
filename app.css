@@ -53,7 +53,7 @@ div.blur {
   }
   
   .stop-color {
-    stop-color: #135589;
+    stop-color: #1D2951;
     -webkit-animation: colors 3s linear infinite;
             animation: colors 3s linear infinite;
   }
@@ -80,56 +80,74 @@ div.blur {
   
   @-webkit-keyframes colors {
     0% {
-        stop-color: #2a93d5;
+        stop-color: #1D2951;
       }
-      15% {
-        stop-color: #3ddad7;
+      10% {
+        stop-color: #000080;
+      }
+      20% {
+        stop-color: #1034A6;
       }
       30% {
-        stop-color: #aed9da;
+        stop-color: #0F52BA;
       }
-      45% {
-        stop-color: #edfafd;
+      40% {
+        stop-color: #6593F5;
+      }
+      50% {
+        stop-color: #008ECC;
       }
       60% {
-        stop-color: #135589;
+        stop-color: #0080FF;
       }
-      75% {
-        stop-color: #2a93d5;
+      70% {
+        stop-color: #0E4D92;
+      }
+      80% {
+        stop-color: #003152;
       }
       90% {
-        stop-color: #3ddad7;
+        stop-color: #111E6C;
       }
       100% {
-        stop-color: #aed9da;
+        stop-color: #1D2951;
       }
   }
   
   @keyframes colors {
-      0% {
-          stop-color: #2a93d5;
-        }
-        15% {
-          stop-color: #3ddad7;
-        }
-        30% {
-          stop-color: #aed9da;
-        }
-        45% {
-          stop-color: #edfafd;
-        }
-        60% {
-          stop-color: #135589;
-        }
-        75% {
-          stop-color: #2a93d5;
-        }
-        90% {
-          stop-color: #3ddad7;
-        }
-        100% {
-          stop-color: #aed9da;
-        }
+    0% {
+        stop-color: #1D2951;
+      }
+      10% {
+        stop-color: #000080;
+      }
+      20% {
+        stop-color: #1034A6;
+      }
+      30% {
+        stop-color: #0F52BA;
+      }
+      40% {
+        stop-color: #6593F5;
+      }
+      50% {
+        stop-color: #008ECC;
+      }
+      60% {
+        stop-color: #0080FF;
+      }
+      70% {
+        stop-color: #0E4D92;
+      }
+      80% {
+        stop-color: #003152;
+      }
+      90% {
+        stop-color: #111E6C;
+      }
+      100% {
+        stop-color: #1D2951;
+      }
   }
   /* .svg--bird {
     -webkit-animation: up-down 1.68s infinite ease-out;

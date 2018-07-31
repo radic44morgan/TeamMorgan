@@ -8,6 +8,9 @@ body {
     padding-bottom: 50px;
 }
 
+.fa-plus-circle:hover {
+    color:#125589!important;
+}
 div.blur {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
@@ -32,16 +35,16 @@ div.blur {
  h2 {
      color: #125589;
  }
-
+.modal-header {
+    color: #125589;
+}
  #loginlabel {
     color: #125589;
 }
-
-  .btn {
+  .btn-primary {
     background-color: #125589 !important;
     color: white !important;
  }
-
 
  .svg {
     display: block;

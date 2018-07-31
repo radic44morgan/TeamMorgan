@@ -4,7 +4,8 @@ IMG.displayed {
     margin-right: auto }
 
 body {
-    background: #edfafd
+    background: #edfafd;
+    margin-top: 10px;
 }
 
 div.blur {

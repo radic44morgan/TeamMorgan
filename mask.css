@@ -23,7 +23,7 @@ BODY {
 }
 
 .stop-color {
-  stop-color: crimson;
+  stop-color: #135589;
   -webkit-animation: colors 3s linear infinite;
           animation: colors 3s linear infinite;
 }
@@ -50,68 +50,47 @@ BODY {
 
 @-webkit-keyframes colors {
   0% {
-    stop-color: maroon;
+    stop-color: #2a93d5;
   }
-  10% {
-    stop-color: crimson;
-  }
-  20% {
-    stop-color: orangered;
-  }
-  30% {
-    stop-color: gold;
-  }
-  40% {
-    stop-color: yellowgreen;
+  25% {
+    stop-color: #3ddad7;
   }
   50% {
-    stop-color: skyblue;
+    stop-color: #aed9da;
   }
-  60% {
-    stop-color: steelblue;
+  75% {
+    stop-color: #edfafd;
   }
-  70% {
-    stop-color: slateblue;
-  }
-  80% {
-    stop-color: darkviolet;
-  }
-  90% {
-    stop-color: purple;
+  100% {
+    stop-color: #135589;
   }
 }
 
 @keyframes colors {
-  0% {
-    stop-color: maroon;
-  }
-  10% {
-    stop-color: crimson;
-  }
-  20% {
-    stop-color: orangered;
-  }
-  30% {
-    stop-color: gold;
-  }
-  40% {
-    stop-color: yellowgreen;
-  }
-  50% {
-    stop-color: skyblue;
-  }
-  60% {
-    stop-color: steelblue;
-  }
-  70% {
-    stop-color: slateblue;
-  }
-  80% {
-    stop-color: darkviolet;
-  }
-  90% {
-    stop-color: purple;
-  }
+    0% {
+        stop-color: #2a93d5;
+      }
+      15% {
+        stop-color: #3ddad7;
+      }
+      30% {
+        stop-color: #aed9da;
+      }
+      45% {
+        stop-color: #edfafd;
+      }
+      60% {
+        stop-color: #135589;
+      }
+      75% {
+        stop-color: #2a93d5;
+      }
+      90% {
+        stop-color: #3ddad7;
+      }
+      100% {
+        stop-color: #aed9da;
+      }
 }
 /* .svg--bird {
   -webkit-animation: up-down 1.68s infinite ease-out;
